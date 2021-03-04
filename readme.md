@@ -6,6 +6,12 @@ Use the notebook called `vae.ipynb`. If you don't want to train the model yourse
 
 I also made a little script that generates an animation of the fish "swimming" by transitioning between input-values to the encoder. You can see the animation in `vid.mp4`.
 
+## Learning resources:
+
+- Really good and intutive explanation of VAE's: https://towardsdatascience.com/variational-autoencoder-demystified-with-pytorch-implementation-3a06bee395ed
+- Some resources on balancing KL-divergence and reconstruction loss: https://stats.stackexchange.com/questions/332179/how-to-weight-kld-loss-vs-reconstruction-loss-in-variational-auto-encoder
+- The original paper (best suited for a math background; would recommend reading AFTER implementing): https://arxiv.org/pdf/1312.6114.pdf
+
 ## Dataset
 
 Download it here: https://storage.cloud.google.com/quickdraw_dataset/full/numpy_bitmap/fish.npy
